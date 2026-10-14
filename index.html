@@ -50,15 +50,14 @@
                            nav {justify-content: center; gap: 8px 14px;}
                            nav a {font-size: 0.85rem;}
                            .hero {padding: 28px 0 24px}
-                           .title.row {display: flex; flex-direction: column; align-items: center; gap: 18px; margin-bottom: 0;}
-                           .portrait {order: -1; align-self: center; justify-self: auto; width: 120px; height: 120px;}
-                           .hero-copy {text-align: center;}
-                           h1 {font-size: clamp(2rem, 9vm, 2,6rem); line-height: 1.12; margin-bottom: 10px;}
-                          .eyebrow {font-size: 0.7rem; margin-bottom: 8px;}
-                          .subtitle {font-size: 1rem;line-height: 1.55;margin-bottom: 0;}
-                          .hero-details {margin-top: 18px;}
-                          .quick-links {justify-content: center;gap: 10px 20px;}
-                          main {width: 100%;}}
+  .title-row {display: grid;grid-template-columns: 105px minmax(0, 1fr);gap: 18px; align-items: center;margin-bottom: 0;}
+  .portrait {order: 0;width: 105px;height: 105px;align-self: center;justify-self: start;margin-top: 0;}
+  .hero-copy {min-width: 0; text-align: left;}
+  h1 {font-size: clamp(1.65rem, 6vw, 2.2rem);line-height: 1.12;overflow-wrap: break-word;}
+  .eyebrow {font-size: 0.65rem;line-height: 1.4;}
+  .subtitle {font-size: 0.9rem;line-height: 1.5;margin-bottom: 0;}
+  .hero-details { margin-top: 18px;}
+  .quick-links {justify-content: flex-start;gap: 10px 20px;}}             
   </style>
 </head>
 <body>

@@ -19,6 +19,10 @@
     nav a{font-size:.9rem;color:var(--muted);text-decoration:none}
     nav a:hover{color:var(--accent)}
     .hero{display:grid;grid-template-columns:minmax(0,1fr) 144px;gap:36px;align-items:start;padding:44px 0 28px;width: 100%}
+    .hero-details {display: block; margin-top: 0;}
+    .title-row {display: grid;grid-template-columns: minmax(0, 1fr) 144px;gap: 36px;align-items: start; width: 100%;}
+    .title-row .hero-copy {grid-column: 1;grid-row: 1;}
+    .title-row .portrait {grid-column: 2;grid-row: 1;width: 144px;height: 144px;border-radius: 50%;overflow: hidden;justify-self: end;align-self: start;margin: 0;}
     .eyebrow{color:var(--accent);text-transform:uppercase;font-size:.77rem;font-weight:750;letter-spacing:.12em;margin:0 0 8px}
     h1{font-size:clamp(2.3rem,5vw,3.5rem);letter-spacing:-.055em;line-height:1.08;margin:0 0 12px}
     .subtitle{color:var(--muted);font-size:1.12rem;margin:0 0 22px}
@@ -67,7 +71,7 @@
       <p class="eyebrow">Researcher in Science Education</p>
       <h1>Esther Zeedijk</h1></div>
     <div class="portrait"><img src="IMG_8839.jpeg" alt="Profile photo of Esther Zeedijk"></div></div>
-<!--Left side: name, introduction, and links -->
+<!--introduction, and links -->
     <div class="hero-details">
       <p class="subtitle">PhD researcher, <a href="https://www.ru.nl/en/institute-for-science-education"> Institute for Science Education</a>, <a href="https://www.ru.nl/en"> Radboud University</a></p>     
       <div class="quick-links">
